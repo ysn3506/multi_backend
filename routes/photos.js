@@ -25,6 +25,7 @@ router.get("/sliderPhotos", async (req, res) => {
   }
 });
 
+//GET testimonial Photos
 router.get("/testimonialPhoto", async (req, res) => {
   try {
     const testimonialBackground = photos.testimonialBackground;
